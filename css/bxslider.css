@@ -1,0 +1,84 @@
+.captionOrange, .captionBlack {
+	color: #fff;
+	font-size: 20px;
+	line-height: 30px;
+	text-align: center;
+	border-radius: 4px;
+}
+.captionOrange {
+	position: absolute;
+	left: 15%;
+	margin: 0;
+}
+.captionOrange h1.t-caption {
+	color: #ffffff;
+	font-family: 'SFUDinLight', sans-serif;
+	font-size: 57px;
+	font-weight: normal;
+	line-height: 1em;
+	text-transform: uppercase;
+}
+.captionOrange h1.t-caption label {
+	background-color: rgba(0, 0, 0, 0.6);
+	display: inline-block;
+	padding: 5px 30px 15px;
+}
+.captionOrange p.c-caption {
+	margin-top: 2px;
+	color: #ffffff;
+	font-size: 23px;
+	text-transform: uppercase;
+}
+.captionOrange p.c-caption label {
+	background-color: rgba(0, 0, 0, 0.6);
+	display: inline-block;
+	padding: 8px 15px;
+}
+.captionOrange p.l-caption {
+	margin-top: 20px;
+}
+.captionOrange p.l-caption a {
+	background-color: #076643;
+	border-radius: 4px;
+	color: #ffffff;
+	display: inline-block;
+	font-size: 16px;
+	font-weight: 300;
+	text-transform: uppercase;
+	padding: 12px 50px;
+}
+.captionBlack {
+	font-size:16px;
+	background: #000;
+	background-color: rgba(0, 0, 0, 0.4);
+}
+a.captionOrange, A.captionOrange:active, A.captionOrange:visited {
+
+	color: #ffffff;
+	text-decoration: none;
+}
+a.captionOrange:hover {
+	color: #eb5100;
+	text-decoration: underline;
+	background-color: #eeeeee;
+	background-color: rgba(238, 238, 238, 0.7);
+}
+.bricon {
+	background: url(../images/browser-icons.png);
+}
+.jssoral, .jssorar, .jssoraldn, .jssorardn {
+	background: url(../images/a02.png) no-repeat;
+	width: 45px;
+	height: 45px;
+	position: absolute;
+	cursor: pointer;
+	display: block;
+	overflow: hidden;
+	z-index: 9;
+}
+.jssoral { background-position: 0 0; }
+.jssorar { background-position: -45px 0; }
+.jssoral:hover { background-position: 0 0; }
+.jssorar:hover { background-position: -45px 0; }
+.jssoraldn { background-position: 0 0; }
+.jssorardn { background-position: -45px 0; }

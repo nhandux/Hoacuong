@@ -1,0 +1,11 @@
+[11-Apr-2013 17:18:46] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home/hhhiep/public_html/_CORE/mysql.class.php on line 85
+[06-Aug-2013 09:19:38] PHP Parse error:  syntax error, unexpected ';' in /home2/hypertec/public_html/index.php on line 123
+[06-Aug-2013 09:19:40] PHP Parse error:  syntax error, unexpected ';' in /home2/hypertec/public_html/index.php on line 123
+[24-Aug-2013 16:02:37] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'hypertec_huser'@'localhost' (using password: YES) in /home2/hypertec/public_html/_CORE/mysql.class.php on line 19
+[24-Aug-2013 16:02:38] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'hypertec_huser'@'localhost' (using password: YES) in /home2/hypertec/public_html/_CORE/mysql.class.php on line 19
+[24-Aug-2013 16:02:38] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'hypertec_huser'@'localhost' (using password: YES) in /home2/hypertec/public_html/_CORE/mysql.class.php on line 19
+[24-Aug-2013 16:02:39] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'hypertec_huser'@'localhost' (using password: YES) in /home2/hypertec/public_html/_CORE/mysql.class.php on line 19
+[24-Aug-2013 16:02:39] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'hypertec_huser'@'localhost' (using password: YES) in /home2/hypertec/public_html/_CORE/mysql.class.php on line 19
+[24-Aug-2013 16:02:39] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'hypertec_huser'@'localhost' (using password: YES) in /home2/hypertec/public_html/_CORE/mysql.class.php on line 19
+[25-Aug-2013 23:51:39] PHP Warning:  Unknown: open(/tmp/sess_dab371c3004e19c1786c92c6a54a25e6, O_RDWR) failed: Permission denied (13) in Unknown on line 0
+[25-Aug-2013 23:51:39] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0

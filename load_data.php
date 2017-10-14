@@ -1,0 +1,55 @@
+<?php
+// System
+define( 'TTH_SYSTEM', true );
+//----------------------------------------------------------------------------------------------------------------------
+require_once(str_replace( DIRECTORY_SEPARATOR, '/', dirname( __file__ ) ) . '/define.php');
+//str_replace( DIRECTORY_SEPARATOR, '/', dirname( __file__ ) ); đường dẩn chuẩn cho web
+require_once(ROOT_DIR . DS ."lang" . DS . TTH_LANGUAGE . ".lang");
+//echo ROOT_DIR . DS ."lang" . DS . TTH_LANGUAGE . ".lang";
+include_once(_F_FUNCTIONS . DS . "Function.php");
+try {
+	$db =  new ActiveRecord(TTH_DB_HOST, TTH_DB_USER, TTH_DB_PASS, TTH_DB_NAME);
+	//chuyen source giong cau dung mau
+	//bd laf cais bang lay 
+	//
+}
+catch(DatabaseConnException $e) {
+	echo $e->getMessage();
+}
+ 
+ $type = (string)$_GET['type'];
+
+if($type    == "count"){
+	$items  = (int)$_GET['items'];
+	$result = countAllarticle();
+	$pages  = $result/$items;
+	//tách chuổi
+	$tmp    = explode(".", $pages);
+	//không có trang gán bằng 1
+	$total  = array("total"=> 0);
+
+	if( count($tmp)> 1 )
+	{
+		$pages = $tmp[0] + 1;
+	}
+	else{
+		$pages = $tmp;
+	}
+
+	$total["total"] = $pages;
+
+	echo json_encode($total);
+}
+//lấy ra các phần tử tương ứng
+if($type == "list")
+{
+    $items = (int)$_POST['items'];
+
+     $currentPage = (int)$_POST['currentPage'];
+  //lấy limit
+     $offset =  ($currentPage - 1) * $items;
+
+     $result = getAllarticle($offset,$items); 
+
+   echo json_encode($result);
+}

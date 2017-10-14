@@ -1,0 +1,23 @@
+<script type="text/javascript" src="/js/jquery.min.js"></script>
+<script type="text/javascript" src="/js/form/jquery.jqtransform.js"></script>
+<link href="/js/form/jqtransform.css" rel="stylesheet" type="text/css" />
+<form class="jqtransform">
+  <select id="standard-dropdown" name="standard-dropdown" class="custom-class1 custom-class2 select_lk" style="width: 200px;">
+            	<option value="http://<?=$_SERVER['HTTP_HOST']?>">Liên kết website ...</option>
+				<?
+                $sql=$db->select("tgp_gallery","hien_thi=1 and cat=2","order by time desc");
+				while($r=$db->fetch($sql))
+				{
+				?>
+                <option value="<?=$r['chu_thich']?>"><?=$r['ten']?></option>
+                <?
+				}
+				?>
+            </select>
+</form>
+<script type="text/javascript">
+$(function() {
+    //find all form with class jqtransform and apply the plugin
+    $(".jqtransform").jqTransform();
+});
+</script>

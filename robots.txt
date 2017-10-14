@@ -1,0 +1,12 @@
+User-agent: *
+Disallow: /cgi-bin/
+Disallow: /olala-admin/
+Disallow: /admin/
+Disallow: /database/
+Disallow: /includes/function/
+Disallow: /includes/class/
+Disallow: /lang/
+Disallow: /tmp/
+Disallow: /config.php
+Disallow: /define.php
+Disallow: /register_globals.php

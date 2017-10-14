@@ -1,0 +1,26 @@
+<?php
+if (!defined('TTH_SYSTEM')) {die('Please stop!');}
+
+if ($slug_cat == 'san-pham') {
+	?>
+	<a href="<?php echo HOME_URL_LANG.'/'.$slug_cat.'/'.getSlugMenu($row2['article_menu_id'], 'article').'/'.$stringObj->getLinkHtml($row2['name'], $row2['article_id'])?>">
+	    <div class="item-ga">
+		<div class="box">
+			<div class="img">
+				<img src="<?php echo HOME_URL_LANG?>/uploads/article/<?=$row2['img']?>">
+			</div>
+			<div class="comment"><h3><?=$row2['name']?></h3></div>
+		</div>
+	</div> </a>
+
+	<?php
+} else {
+	?>
+	<li>
+		<a href="<?php echo HOME_URL_LANG.'/'.$slug_cat.'/'.getSlugMenu($row2['article_menu_id'], 'article').'/'.$stringObj->getLinkHtml($row2['name'], $row2['article_id'])?>" title="<?php echo stripslashes($row2['name']);?>" ><?php echo stripslashes($row2['name']);
+	?><?php if (in_array($slug_cat, array('tin-tuc'))) {echo '&nbsp; <span class="time">- '.$date->vnFull($row2['created_time']).'</span>';
+	}
+
+	?></a>
+	</li>
+	<?php }?>

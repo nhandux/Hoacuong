@@ -1,0 +1,98 @@
+<?php
+// Page
+	$lgTxt_lang                           = 'vi';
+	$lgTxt_social                         = 'Liên kết mạng xã hội';
+	$lgTxt_social_face                    = 'Liên kết Facebook';
+	$lgTxt_update                         = 'Dữ liệu rỗng... Bạn vui lòng quay lại sau!';
+	$lgTxt_error_page                     = 'Trang thông báo lỗi';
+	$lgTxt_page404                        = 'Liên kết không tồn tại, vui lòng';
+	$lgTxt_page404_click                  = 'bấm';
+	$lgTxt_page404_back                   = 'để quay lại';
+	$lgTxt_article_plus                   = 'Các tin khác:';
+	$lgTxt_article_other                  = 'Cùng chuyên mục:';
+
+	$lgTxt_detail                         = 'Xem thêm';
+	$lgTxt_view_all                       = 'Tất cả';
+
+// Menu
+	$lgTxt_menu_home                      = 'Trang chủ';
+	$lgTxt_menu_contact                   = 'Liên hệ';
+	$lgTxt_slug_contact                   = 'lien-he';
+
+	$lgTxt_workshop_title                 = 'Đăng ký khóa học';
+	$lgTxt_workshop_note                  = 'Kính mời quý phụ huynh đăng ký để tham gia lớp học trải nghiệm.';
+	$lgTxt_workshop_name                  = 'Họ và tên...';
+	$lgTxt_workshop_tel                   = 'Số điện thoại...';
+	$lgTxt_workshop_email                 = 'Email...';
+	$lgTxt_workshop_address               = 'Địa chỉ...';
+	$lgTxt_workshop_number                = 'Số lượng...';
+	$lgTxt_workshop_register              = 'Đăng ký';
+
+	$lgTxt_newsletter_note                = 'Vui lòng đăng ký thông tin để nhận được những phần quà đặc biệt dành cho bé của bạn.';
+	$lgTxt_newsletter_name                = 'Tên';
+	$lgTxt_newsletter_tel                 = 'Số điện thoại';
+	$lgTxt_newsletter_email               = 'Email';
+	$lgTxt_newsletter_register            = 'Đăng ký thông tin';
+
+	$lgTxt_register_title                 = 'Đăng ký khóa học';
+	$lgTxt_register_slug                  = 'dang-ky';
+
+	$lgTxt_program_title                  = '<i class="fa fa-newspaper-o"></i> Tin tức công ty';
+	$lgTxt_program_title_home             = 'Các chương trình của chúng tôi!';
+	$lgTxt_course_title_home              = 'Các khóa học của chúng tôi!';
+
+// Contact
+	$txtContact_titleForm                 = 'Thắc mắc - Góp ý';
+	$txtContact_name		              = 'Họ và tên: *';
+	$txtContact_address	                  = 'Địa chỉ:';
+	$txtContact_email		              = 'Email: *';
+	$txtContact_fone		              = 'Số điện thoại: *';
+	$txtContact_content	                  = 'Nội dung liên hệ: *';
+	$txtContact_button_s	              = 'Gửi đi';
+	$txtContact_sendOk		              = 'Xin chân thành cảm ơn Quý khách đã quan tâm và sử dụng dịch vụ của chúng tôi!
+Yêu cầu của Quý khách đã gửi thành công. Chúng tôi sẽ phản hồi lại trong vòng 24h tới.
+Chân thành cảm ơn!';
+	$txtContact_sendOk2		              = 'Chúc mừng qúy khách đã đăng ký thành công, Hẹn gặp lại quý khach vào ngày 27/11/2016 tại Diamond Place Da Nang. Cảm ơn Quý khách!';
+	$txtContact_sendDie	                  = 'Không thể gửi thư vì một vài lỗi từ phía máy chủ.';
+
+	$txtOrder_sendOk		              = 'Xin chân thành cảm ơn Quý khách đã quan tâm và sử dụng dịch vụ của chúng tôi!
+Yêu cầu của Quý khách đã gửi thành công. Chúng tôi sẽ phản hồi lại trong vòng 24h tới.
+Chân thành cảm ơn!';
+
+    $txtEnter_field		                  = 'Trường dữ liệu bắt buộc.';
+    $txtEnter_email		                  = 'Địa chỉ Email không hợp lệ.';
+    $txtEnter_tell		                  = 'Số điện thoại không hợp lệ.';
+	$txtEnter_number		              = 'Số không hợp lệ.';
+
+	$lgTxt_register_mail_title            = 'Đăng ký nhận khuyến mãi';
+	$lgTxt_register_mail_input            = 'Vui lòng nhập email...';
+	$txtEmail_sendOk		              = 'Đăng ký email nhận tin khuyến mãi thành công.';
+	$txtEmail_sendDie	                  = 'Không thể thực hiện vì một vài lỗi từ phía máy chủ.';
+
+	// cấu hình thêm
+    $txtctlienhe                          = 'Quý khách vui lòng liên hệ với chúng tôi qua form bên dưới:';
+	$txtttcongty                          = 'Thông tin công ty';
+	$txtbtlienhe                          = 'Liên hệ';
+	$txtbtlammoi                          = 'Làm mới';
+	$lgTxt_program_gioithieu              = '<i class="fa fa-shopping-cart" aria-hidden="true"></i> Danh mục sản phẩm';
+	$txthotrotructuyen                    = 'Hổ trợ trực tuyến';
+	$txthoacuong       				      = 'info@hoacuongcrop.vn';
+	$txtphonelienhe         			  = '+(84) 935 334 149';
+	$txttrangchu                          = 'Trang chủ';
+	$txtdesign                            = 'Designed and Maintained by ';
+	$txtcopyrun                           = 'Coppyright &copy; CÔNG TY TNHH XÂY DỰNG THƯƠNG MẠI & DỊCH VỤ HÒA CƯỜNG. All right reserved.';
+	$txtvechungtoi                        = 'Về chúng tôi';
+	$txtxemthem                           = ' Xem thêm <i class="fa fa-caret-right"></i>';
+	$txtslugxemthem                       = 'gioi-thieu';
+	$txtduan                              = 'DỰ ÁN';
+	$txtslugduan                          = 'du-an';
+	$txtsanpham                           = 'Sản phẩm';
+	$slugchill                            = 'du-an-da-thuc-hien';
+	$txtvideo                             = 'Video';
+	$txttintucsukien                      = 'Tin tức & sự kiện';
+	$txttieukhu                           = 'Tiểu khu 4 - khu phố Hưng Bình - Phường Sông Trí - Thị xã Kỳ Anh - Hà Tĩnh';
+	$txtinfoct                            = 'info@hoangcuong.vn';
+	$txtphonect                           = '8888658668';
+	$lgTxt_duan_title                     = '<i class="fa fa-building-o" aria-hidden="true"></i> Dự án';
+	$lgTxt_hoatdong_title                 = '<i class="fa fa-clone" aria-hidden="true"></i> Lĩnh vực hoạt động';
+	$lgTxt_gioithieu_title                = '<i class="fa fa-file-text-o" aria-hidden="true"></i> Giới thiệu';

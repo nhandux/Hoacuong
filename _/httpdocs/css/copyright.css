@@ -1,0 +1,37 @@
+.tgp_copyright
+{
+	width:960px;
+	font-size:11px;
+	margin:0px auto;
+	margin-bottom:0;
+	height:70px;
+	color:#fff;
+	position:relative;
+	line-height:14px;	
+}
+
+.tgp_copyright .div_1
+{
+	position:absolute;
+	left:0px;
+	bottom:7px;
+}
+
+.tgp_copyright .div_2
+{
+	position:absolute;
+	right:0px;
+	bottom:21px;
+	cursor:pointer;
+	text-align:center;
+}
+
+.tgp_copyright .div_2 b
+{
+	color:#ff9900;
+}
+
+.tgp_copyright .div_2 a
+{
+	color:#fff;
+}

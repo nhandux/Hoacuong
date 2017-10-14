@@ -1,0 +1,136 @@
+
+FileETag none
+
+RewriteEngine On
+
+RewriteRule ^home/																		?act=home
+
+
+RewriteRule ^register/							    									?act=register
+
+RewriteRule ^tim-kiem/							    									?act=tim_kiem
+
+
+RewriteRule ^gio-hang/xoa/([0-9]*)														?act=gio_hang&do=delete&id=$1
+RewriteRule ^gio-hang/cap-nhat/															?act=gio_hang&do=update
+RewriteRule ^gio-hang/							    									?act=gio_hang
+
+RewriteRule ^dat-hang/							    									?act=dat_hang
+
+RewriteRule ^lich-su-giao-dich/							    									?act=lich_su_giao_dich
+RewriteRule ^so-sanh-san-pham/							    									?act=so_sanh_san_pham
+
+RewriteRule ^quen-mat-khau/							    									?act=quen_mat_khau
+
+RewriteRule ^thong-tin-lien-he/([0-9]*)/ 														?act=thong_tin_lien_he&id=$1
+RewriteRule ^thong-tin-lien-he/ 																?act=thong_tin_lien_he
+
+RewriteRule ^video/([0-9]*)/ 														?act=video&id=$1
+RewriteRule ^video/ 																?act=video
+
+RewriteRule ^gioi-thieu/([0-9]*)/ 														?act=gioi_thieu&id=$1
+RewriteRule ^gioi-thieu/ 																?act=gioi_thieu
+
+RewriteRule ^tin-khuyen-mai/([0-9]*)/ 														?act=tin_khuyen_mai&id=$1
+RewriteRule ^tin-khuyen-mai/ 																?act=tin_khuyen_mai
+
+RewriteRule ^thanh-toan/([0-9]*)/ 														?act=thanh_toan&id=$1
+RewriteRule ^thanh-toan/ 																?act=thanh_toan
+
+
+RewriteRule ^hinh-anh-xem/([0-9]*)/ 														?act=hinh_anh_xem&id=$1
+RewriteRule ^hinh-anh-xem/([0-9]*)/([0-9]*)/													?act=hinh_anh_xem&id=$1&page=$2
+RewriteRule ^hinh-anh-xem/ 																?act=hinh_anh_xem
+
+RewriteRule ^hinh-anh/([0-9]*)/([0-9]*)/													?act=hinh_anh&id=$1&page=$2
+RewriteRule ^hinh-anh/([0-9]*)/	 														?act=hinh_anh&id=$1
+RewriteRule ^hinh-anh/ 																?act=hinh_anh
+
+
+
+RewriteRule ^tuyen-dung-xem/([0-9]*)/ 														?act=tuyen_dung_xem&id=$1
+RewriteRule ^tuyen-dung/([0-9]*)/([0-9]*)/													?act=tuyen_dung&id=$1&page=$2
+RewriteRule ^tuyen-dung/([0-9]*)/	 														?act=tuyen_dung&id=$1
+RewriteRule ^tuyen-dung/ 																?act=tuyen_dung
+
+
+
+RewriteRule ^kien-thuc-xem/([0-9]*)/ 														?act=kien_thuc_xem&id=$1
+RewriteRule ^kien-thuc/([0-9]*)/([0-9]*)/													?act=kien_thuc&id=$1&page=$2
+RewriteRule ^kien-thuc/([0-9]*)/	 														?act=kien_thuc&id=$1
+RewriteRule ^kien-thuc/ 																?act=kien_thuc
+
+RewriteRule ^cac-tin-tuc/([0-9]*)/([0-9]*)/													?act=cac_tin_tuc&id=$1&page=$2
+RewriteRule ^cac-tin-tuc/([0-9]*)/	 														?act=cac_tin_tuc&id=$1
+RewriteRule ^cac-tin-tuc/ 																?act=cac_tin_tuc
+
+RewriteRule ^cac-linh-vuc/([0-9]*)/([0-9]*)/													?act=cac_linh_vuc&id=$1&page=$2
+RewriteRule ^cac-linh-vuc/([0-9]*)/	 														?act=cac_linh_vuc&id=$1
+RewriteRule ^cac-linh-vuc/ 																?act=cac_linh_vuc
+
+
+RewriteRule ^san-pham/danh-sach/([0-9]*)/	 														?act=san_pham&step=danh_sach&page=$1
+RewriteRule ^san_pham/danh-sach/ 																	?act=san_pham&step=danh_sach
+RewriteRule ^san-pham/tim-kiem/(.*)/([0-9]*)/	 														?act=san_pham&step=tim_kiem&keyword=$1&page=$2
+RewriteRule ^san_pham/tim-kiem/ 																	?act=san_pham&step=tim_kiem
+RewriteRule ^san-pham/chi-tiet/([0-9]*)/(.*)/([0-9]*)/													?act=san_pham&step=chi_tiet&id=$1&name=$2&page=$3
+RewriteRule ^san-pham/chi-tiet/([0-9]*)/	 														?act=san_pham&&step=chi_tiet&id=$1
+RewriteRule ^san-pham/([0-9]*)/(.*)/([0-9]*)/													?act=san_pham&id=$1&name=$2&page=$3
+RewriteRule ^san-pham/([0-9]*)/ 														?act=san_pham&id=$1
+RewriteRule ^san-pham/ 																?act=san_pham
+
+
+RewriteRule ^search/																	?act=search
+
+RewriteRule ^tim-kiem/([0-9]*)/ 														?act=tim_kiem&page=$1
+
+RewriteRule ^thuong-gia-xem/([0-9]*)/	 													?act=thuong_gia_xem&id=$1
+RewriteRule ^thuong-gia/([0-9]*)/([0-9]*)/													?act=thuong_gia&id=$1&page=$2
+RewriteRule ^thuong-gia/([0-9]*)/	 														?act=thuong_gia&id=$1
+RewriteRule ^thuong-gia/ 																	?act=thuong_gia
+
+
+RewriteRule ^du-an/chi-tiet/([0-9]*)/	 													?act=du_an&step=chi_tiet&id=$1
+RewriteRule ^du-an/chi-tiet/([0-9]*)/([0-9]*)/													?act=du_an&step=chi_tiet&id=$1&page=$2											
+RewriteRule ^du-an/danh-sach/([0-9]*)/	 														?act=du_an&step=danh_sach&page=$1
+RewriteRule ^du-an/danh-sach/ 																	?act=du_an&step=danh_sach
+RewriteRule ^du-an/([0-9]*)/(.*)/([0-9]*)/	 														?act=du_an&id=$1&name=$2&page=$3
+RewriteRule ^du-an/([0-9]*)/	 														?act=du_an&id=$1
+RewriteRule ^du-an/ 																	?act=du_an
+
+
+RewriteRule ^tin-tuc/chi-tiet/([0-9]*)/	 													?act=tin_tuc&step=chi_tiet&id=$1
+RewriteRule ^tin-tuc/chi-tiet/([0-9]*)/([0-9]*)/													?act=tin_tuc&step=chi_tiet&id=$1&page=$2											
+RewriteRule ^tin-tuc/danh-sach/([0-9]*)/	 														?act=tin_tuc&step=danh_sach&page=$1
+RewriteRule ^tin-tuc/danh-sach/ 																	?act=tin_tuc&step=danh_sach
+RewriteRule ^tin-tuc/([0-9]*)/(.*)/([0-9]*)/	 														?act=tin_tuc&id=$1&name=$2&page=$3
+RewriteRule ^tin-tuc/([0-9]*)/	 														?act=tin_tuc&id=$1
+RewriteRule ^tin-tuc/ 																	?act=tin_tuc
+
+RewriteRule ^cong-trinh/chi-tiet/([0-9]*)/	 													?act=cong_trinh&step=chi_tiet&id=$1
+RewriteRule ^cong-trinh/chi-tiet/([0-9]*)/([0-9]*)/													?act=cong_trinh&step=chi_tiet&id=$1&page=$2											
+RewriteRule ^cong-trinh/danh-sach/([0-9]*)/	 														?act=cong_trinh&step=danh_sach&page=$1
+RewriteRule ^cong-trinh/danh-sach/ 																	?act=cong_trinh&step=danh_sach
+RewriteRule ^cong-trinh/([0-9]*)/(.*)/([0-9]*)/	 														?act=cong_trinh&id=$1&name=$2&page=$3
+RewriteRule ^cong-trinh/([0-9]*)/	 														?act=cong_trinh&id=$1
+RewriteRule ^cong-trinh/ 																	?act=cong_trinh
+
+RewriteRule ^ho-tro/chi-tiet/([0-9]*)/	 													?act=ho_tro&step=chi_tiet&id=$1
+RewriteRule ^ho-tro/chi-tiet/([0-9]*)/([0-9]*)/													?act=ho_tro&step=chi_tiet&id=$1&page=$2											
+RewriteRule ^ho-tro/danh-sach/([0-9]*)/	 														?act=ho_tro&step=danh_sach&page=$1
+RewriteRule ^ho-tro/danh-sach/ 																	?act=ho_tro&step=danh_sach
+RewriteRule ^ho-tro/([0-9]*)/(.*)/([0-9]*)/	 														?act=ho_tro&id=$1&name=$2&page=$3
+RewriteRule ^ho-tro/([0-9]*)/	 														?act=ho_tro&id=$1
+RewriteRule ^ho-tro/ 																	?act=ho_tro
+
+RewriteRule ^lien-he/ 																	?act=lien_he
+RewriteRule ^du-an-tieu-bieu/ 																	?act=du_an_tieu_bieu
+RewriteRule ^du-an-dang-thuc-hien/ 																	?act=du_an_dang_thuc_hien
+
+RewriteRule ^khach-hang/																	?act=khach_hang
+RewriteRule ^khach-hang-xem/([0-9]*)/ 														?act=khach_hang_xem&id=$1
+RewriteRule ^captcha.gif																lib/Captcha02/CaptchaImage.php
+
+RewriteRule ^file/([0-9]*)/([a-z0-9]*)													/download.php?id=$1&hash=$2&secret=qweasdzxc
+RewriteRule ^file/([0-9]*)/																/	[R]
+RewriteRule ^file/																		/	[R]

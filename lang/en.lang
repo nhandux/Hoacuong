@@ -1,0 +1,47 @@
+<?php
+// Page
+	$lgTxt_lang                           = 'en';
+	$lgTxt_social                         = 'Liên kết mạng xã hội';
+	$lgTxt_social_face                    = 'Liên kết Facebook';
+	$lgTxt_update                         = 'The data are in the process of renovation ... Please come back later!';
+    $lgTxt_error_page                     = 'Error page';
+    $lgTxt_page404                        = 'Link does not exist, please';
+    $lgTxt_page404_click                  = 'click';
+    $lgTxt_page404_back                   = 'to return';
+	$lgTxt_article_plus                   = 'Other article:';
+	$lgTxt_article_other                  = 'Same category:';
+	$lgTxt_service_other                  = 'Other services:';
+	$lgTxt_activities_other               = 'Other sectors:';
+	$lgTxt_news_other                     = 'Other news:';
+	$lgTxt_product_other                  = 'All Products';
+	$lgTxt_product_hot                    = 'Typical products';
+	$lgTxt_title_news_hot                 = 'Typical News';
+
+	$lgTxt_detail                         = 'View detail';
+	$lgTxt_view_all                       = 'View all';
+
+// Menu
+	$lgTxt_menu_home                      = 'Home';
+	$lgTxt_menu_contact                   = 'Contact';
+	$lgTxt_slug_contact                   = 'contact';
+	$lgTxt_menu_search                    = 'Quick search';
+	$lgTxt_slug_search                    = 'search';
+	$lgTxt_title_news                     = 'News - Events';
+
+// Contact
+	$txtContact_titleForm   = 'Inquiries - Feedback';
+	$txtContact_name		= 'Full name';
+	$txtContact_address	    = 'Address';
+	$txtContact_email		= 'Email';
+	$txtContact_fone		= 'Tel';
+	$txtContact_content	    = 'Request';
+	$txtContact_button_s	= 'Submit';
+	$txtContact_sendOk		= 'Your request has been sent successfully, we will promptly contact you back.';
+	$txtContact_sendDie	    = 'Unable to send mail for a few errors from the server side.';
+
+	$txtOrder_sendOk		= 'Orders friend has been sent successfully, we will quickly get back to you as soon as possible. Please wait!';
+
+	$txtEnter_field		    = 'This field is required to enter.';
+	$txtEnter_email		    = 'Invalid E-mail address.';
+	$txtEnter_tell		    = 'Invalid phone number.';
+	$txtEnter_number		= 'Invalid number.';

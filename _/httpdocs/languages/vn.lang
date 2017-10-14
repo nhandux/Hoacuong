@@ -1,0 +1,25 @@
+﻿<?php
+	$txt_home="Trang chủ";
+	$txt_news="Tin tức";
+	$txt_contact="Liên hệ";
+	$txt_product="Sản phẩm";
+	$txt_service="Dịch vụ";
+	$txt_product_others="Các sản phẩm liên quan";
+	$txt_cms_others="Các bài viết liên quan";
+	$txt_product_atvi="Thông số kĩ thuật";
+	$txt_product_img="Hình ảnh";
+	$txt_project="Dự án";
+	$txt_intro="Giới thiệu";
+	$txt_company="Doanh nghiệp";
+	$txt_updatingdata="Đang cập nhật dữ liệu.";
+	$txt_view_detail="&raquo; Xem chi tiết";
+	$txt_insert_info_contact="Quý khách vui lòng liên hệ với chúng tôi qua form bên dưới:";
+	$txt_search_results="Kết quả tìm kiếm";
+	$txt_buil="Công trình";
+	$txt_support="Hỗ trợ";
+	$txt_hotline="Hỗ trợ trực tuyến";
+	$txt_project="Dự án";
+	$txt_project_ed="Dự án đã thực hiện";
+	$txt_project_hot="Dự án tiêu biểu";
+	$txt_customer="Khách hàng - Doanh nghiệp";
+?>

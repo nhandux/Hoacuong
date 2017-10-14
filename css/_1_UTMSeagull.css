@@ -1,0 +1,25 @@
+@font-face {
+	font-family: "UTMSeagull";
+	src: url("../fonts/UTMSeagullBold.eot");
+	src: url("../fonts/UTMSeagullBold.eot?#iefix") format("embedded-opentype"),
+	url("../fonts/UTMSeagullBold.woff") format("woff"),
+	url("../fonts/UTMSeagullBold.ttf") format("truetype"),
+	url("../fonts/UTMSeagullBold.svg#UTMSeagullBold") format("svg");
+	font-weight: normal;
+	font-style: normal;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+@font-face {
+	font-family: "UTMSeagull";
+	src: url("../fonts/UTMSeagullBoldItalic.eot");
+	src: url("../fonts/UTMSeagullBoldItalic.eot?#iefix") format("embedded-opentype"),
+	url("../fonts/UTMSeagullBoldItalic.woff") format("woff"),
+	url("../fonts/UTMSeagullBoldItalic.ttf") format("truetype"),
+	url("../fonts/UTMSeagullBoldItalic.svg#UTMSeagullBoldItalic") format("svg");
+	font-weight: normal;
+	font-style: italic;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}

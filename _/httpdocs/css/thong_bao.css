@@ -1,0 +1,82 @@
+
+.show_info{
+font-size:12px;
+position:relative;
+text-align:center;
+width:300px;
+height:80px;
+color:#000;
+}
+.show_info a{
+color:#FF0000;
+}
+.close_luu
+{
+cursor:pointer;
+position:absolute;
+z-index:1000000;
+right:8px;
+top:10px;
+width:25px;
+}
+.title_popup_bao{
+
+height:20px;
+padding-top:5px;
+padding-left:10px;
+text-align:left;
+font-weight:bold;
+margin:0px;
+}
+.noidung_thongbao{
+padding-top:10px;
+padding-bottom:10px;
+padding-left:10px;
+background:#fff;
+padding-right:10px;
+color:#000;
+font-size:11px;
+}
+
+
+.khung_thong_bao{
+background-color: rgba(83, 83, 83, 0.7);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#838383,endColorstr=#838383);
+-ms-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#838383,endColorstr=#838383);
+padding: 8px;
+-moz-border-radius: 6px;
+border-radius: 6px;
+border: none;
+
+}
+.title_thongbao{
+background-color: #EEE;
+color:#d38b00;
+line-height:20px;
+font-weight:bold;
+border: 1px solid #D0D0D0
+}
+
+.thoangbao_mgs{
+ top:40%; left:40%;
+ position:fixed;
+z-index:9999999;
+color:#0000;
+}
+.close_luu a
+{
+cursor:pointer;
+
+z-index:99999;
+color:#FF0000;
+
+}
+
+
+.close_hotro{
+position:absolute; top:2px; right:2px;
+}
+.khung_trogiup{
+background:#fff url(/images/Question-mark-icon.png) no-repeat right bottom; width:250px;  position:fixed; bottom:0px; display:none; right:0px;
+border:2px solid #8d381b; padding-bottom:5px;behavior: url(/js/iepngfix.htc);
+}

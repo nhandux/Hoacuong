@@ -1,0 +1,130 @@
+.lien_he
+{
+	float:left;
+	background:url(/images/bg_right.jpg) left top repeat-y;
+	width:290px;
+	padding-top:10px;
+	padding-bottom:10px;
+	margin-top:10px;
+	
+}
+.lien_he .lien_he_1
+{
+    float: left;
+    padding-left: 10px;
+    width: 270px;
+}
+.lien_he .lien_he_1 p.td_lien_he
+{
+	float:left;
+	width:170px;
+	height:21px;
+	background:url(/images/bg_lien_he.jpg) no-repeat;
+}
+.lien_he .lien_he_1 p.td_ho_tro
+{
+	float:left;
+	width:270px;
+	height:25px;
+	background:url(/images/bg_ho_tro.jpg) no-repeat;
+	margin-top:5px;
+}
+/*Lien he*/
+form.lien_he_1
+{
+	margin:0;padding:0;
+	width:600px;
+	float:left;margin-left:80px;
+}
+form.lien_he_1 .button_1
+{
+	width:400px;
+	float:left;
+	outline:none;
+}
+ form.lien_he_1 input.inputbox,textarea.inputbox
+{
+	color:#505050;
+	padding:4px;
+	background:none;
+	border:solid 1px #Bdbdbd;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:12px;
+}
+ form.lien_he_1 input.btn_gui
+{
+	width:75px;
+	height:40px;
+	padding:0px;
+	margin:15px 10px 8px 0px;
+	border:none;
+	text-align:center;
+	color:#FFF;
+	font-family:Tahoma;
+	cursor:pointer;
+	background:url(/images/goi.jpg) no-repeat;
+	outline:none;
+}
+form.lien_he_1 input.btn_gui:hover
+{
+	opacity:0.8;
+}
+form.lien_he_1 input.btn_reset
+{
+	width:65px;
+	height:40px;
+	padding:0px;
+	margin:15px 0px 8px 0px;
+	border:none;
+	text-align:center;
+	color:#FFF;
+	font-family:Tahoma;
+	cursor:pointer;
+	background:url(/images/viet_lai.jpg) no-repeat;
+	outline:none;
+}
+form.lien_he_1 input.btn_reset:hover
+{
+	opacity:0.8;
+}
+ form.lien_he_1 input.txtName {background: url(/images/name.gif) no-repeat left center;padding-left:30px;background-position:7px 3px;}
+ form.lien_he_1 input.txtAddress {background: url(/images/address.gif) no-repeat left center;padding-left:30px;background-position:7px 3px;}
+ form.lien_he_1 input.txtTel {background: url(/images/phone.gif) no-repeat left center;padding-left:30px;background-position:7px 3px;}
+ form.lien_he_1 input.txtEmail {background: url(/images/email.gif) no-repeat left center;padding-left:30px;background-position:7px 3px;}
+ form.lien_he_1 input.txtSubject {background: url(/images/subject.gif) no-repeat left center;padding-left:30px;background-position:7px 3px;} 
+ form.lien_he_1 textarea.txtarea {}
+  form.lien_he_1 input.btn_gui1
+{
+	font-weight:bold;
+	border-bottom:2px dotted #FFF;
+	margin:15px 60px 8px 0px;
+	text-align:center;
+	color:#FFF;
+	font-family:Tahoma;
+	cursor:pointer;
+	padding:5px 0;
+	outline:none;
+}
+form.lien_he_1 input.btn_gui1:hover
+{
+	 opacity:0.5;
+}
+form.lien_he_1 input.btn_reset1
+{
+	margin:15px 0px 8px 0px;
+	padding:5px 0;
+	text-align:center;
+	color:#FFF;
+	font-family:Tahoma;
+	cursor:pointer;
+	font-weight:bold;
+	border-bottom:2px dotted #FFF;
+}
+form.lien_he_1 input.btn_reset1:hover
+{
+	opacity:0.5;
+}
+
+
+
+

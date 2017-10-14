@@ -1,0 +1,76 @@
+/* CSS Document */
+.menu_cat{
+	width:218px;
+	/*border:0px solid #d6d6d6;*/
+	border-top:1px dashed #D6D6D6;
+}
+.menu_cat li:hover, .menu_cat li.active_menu{
+	color: #f46201;
+}
+.menu_cat li ul li:hover, .menu_cat li ul li.active{
+	color: #f46201;
+}
+.menu_cat li{
+	display:block;
+	/*background:url(../images/bg_li_cat.png) top repeat-x;*/
+	vertical-align:middle;
+	border-bottom:1px dashed #D6D6D6;
+	float:none;
+}
+.menu_cat li a{
+	font-size:13px;
+	/*font-weight:bold;
+	color:#414141;*/
+	height:26px;
+	display:table-cell;
+	*zoom: 1;
+	*display:block;
+	vertical-align:middle;
+	padding:0 14px;
+}
+.menu_cat li a:hover, .menu_cat li.active_menu a, .menu_cat li:hover a{
+	/*color:#0026af;*/
+}
+
+.menu_cat ul{
+	list-style-type:none;
+	}
+	/*.menu_cat li:hover li a{color:#414141;}*/
+	.menu_cat li.active_menu a{
+		color:#414141;;
+		}
+	.menu_cat li li a{
+	/*color:#414141; */
+	font-weight:normal; 
+	padding:0 14px;
+	}
+	.menu_cat li ul{
+	position:relative;
+		float:none;
+		display:block;
+		}
+	.menu_cat li li {
+		background:none;
+		display:block;
+		float:none !important;
+		border-bottom:0px dotted #bdbdbd;
+		}
+		.menu_cat li li a.active_menu{
+			/*color:#da100b;	*/	
+		}
+		.menu_cat li li.active_menu a{
+			/*color:#da100b;	*/	
+		}
+	/*.menu_cat li li:hover a{
+		color:#0026af;
+		}*/
+	.menu_cat li.active_menu li:hover a{
+		/*color:#0026af;*/
+		}
+	/*.menu_cat li:hover li{
+		border:none;
+		margin:0;
+		float:none !important;
+		}	*/
+
+

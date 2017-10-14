@@ -1,0 +1,103 @@
+/* CSS Document */
+.menu{
+	width:980px;
+	text-align:right;
+	margin:auto;
+	height:27px;
+	margin-top:-27px;
+}
+.menu li:hover, .menu li.active_menu{
+	background:url(../images/bg_li.gif) bottom left no-repeat;	
+}
+.menu li{
+	height:27px;
+	overflow:hidden;
+	display:inline-block;
+	*zoom: 1;
+	*display:inline;
+	padding-left:4px;
+	
+	
+}
+.menu li a{
+	padding:7px 15px;
+	color:#6b6b6b;
+	font-size:11px;
+	text-transform:uppercase;
+	display:block;
+	max-height:27px;
+}
+.menu li a:hover, .menu li.active_menu a, .menu li:hover a{
+	color:#f46201;
+	background:#FFF url(../images/bg_a.gif) bottom right no-repeat;
+}
+
+.menu ul{
+	list-style-type:none;
+	}
+	.menu li:hover li a{color:#00afef;}
+	.menu li.active_menu a{
+		color:#f46201;
+		}
+	.menu li li a{color:#00afef;}
+	.menu li ul{
+		/*opacity:0.8;
+		background-color:#5f7f00;*/
+		float:none;
+		display:none;
+		height:auto;
+		border:0px;
+		position:absolute;
+		z-index:200;
+		color: #da100b;
+		padding:5px 10px 0 10px;
+		margin-left:-12px;
+		/*max-width:210px;*/
+		width:auto;
+		text-align:left !important;
+		/*-moz-border-bottom-right-radius: 7px;
+		-webkit-border-bottom-right-radius: 7px;
+		-ms-border-bottom-right-radius: 7px;
+		-o-border-bottom-right-radius: 7px;
+		border-bottom-right-radius: 7px;
+		-moz-border-bottom-left-radius: 7px;
+		-webkit-border-bottom-left-radius: 7px;
+		-ms-border-bottom-left-radius: 7px;
+		-o-border-bottom-left-radius: 7px;
+		border-bottom-left-radius: 7px;*/
+		}
+	.menu li li {
+		background:none;
+		display:block;
+		float:none;
+		text-align:left;
+		padding:3px;
+		float:none !important;
+		border:none;
+		opacity:1;
+		}
+		.menu li li a{
+		display:block;
+		text-decoration:none;
+		padding:2px 0;
+		border:none;
+		}
+		.menu li li a.active_menu{
+			color:#da100b;		
+		}
+		.menu li li.active_menu a{
+			color:#da100b;		
+		}
+	.menu li li:hover a{
+		color:#FFF;
+		}
+	.menu li.active_menu li:hover a{
+		color:#FFF;
+		}
+	.menu li:hover li{
+		border:none;
+		margin:0;
+		float:none !important;
+		}	
+
+
